@@ -1,11 +1,3 @@
-resource/backend_task.js
-resource/DB_atlan.sql
-resource/db.js
-resource/Explanation.txt
-resource/package.json
-resource/README.md
-resource/public/data.csv
-
 # Logs
 logs
 *.log

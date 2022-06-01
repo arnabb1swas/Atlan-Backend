@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/arnabb1swas/Atlan-Backend#readme",
   "dependencies": {
-    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "fast-csv": "^4.3.6",
+    "fast-two-sms": "^3.0.0",
+    "mongoose": "^6.3.5",
+    "translate": "^1.4.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
