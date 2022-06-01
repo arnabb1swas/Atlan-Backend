@@ -19,7 +19,6 @@ app.use(express.json());
 
 function validateData(req, res, next) {
     const { clientIncomePerAnnum, clientSavingsPerAnnum, clientContact } = req.body;
-    console.log(clientIncomePerAnnum, clientSavingsPerAnnum, clientContact);
     if (clientIncomePerAnnum < clientSavingsPerAnnum) {
         res.send("Invalid Data Savings cannot be more than Income");
     }
